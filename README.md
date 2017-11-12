@@ -1,8 +1,6 @@
 # UTF-8 Fixer
 
-These scripts allow you to fix the encoding problem that is created when a characters with UTF-8 encoding are decoded with another encoding and then stored as (or converted to) an UTF-8 encoded string, again.
-
-A typical examples that illustrate this problems would be strings ended up looking like "niĂąos, mĂĄs certificaciĂłn" instead of "niños, más certificación" (see more examples in folder example/files/).
+These scripts allow you to fix the encoding problem that is created when characters with UTF-8 encoding are decoded with another encoding and then are, once again, stored as (or converted to) an UTF-8 encoded string. This usually results in some characters being displayed correctly whereas others will be scrambled. An example to illustrate this would be a string ended up looking like "niĂąos, mĂĄs certificaciĂłn" instead of "niños, más certificación" (see more examples in folder example/files/). This encoding problem is often the case when working with a mix of operating systems and/or internationalization requirements, or, for instance, when working with web frameworks —where the code page can be set in the http header or in the http head section.
 
 
 ## Description of files:
