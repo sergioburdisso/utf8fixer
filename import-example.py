@@ -1,5 +1,7 @@
 # -*- encoding=utf-8 -*-
 from __future__ import print_function
+
+# importing fix_encoding from utf8fixer.py file
 from utf8fixer import fix_encoding
 
 contents = [
@@ -20,11 +22,12 @@ for i, content in enumerate(contents):
     print(contents[i])
 
 
-# output:
+# Output:
+# ------
 # Fixed but not normalized:
 # árbol, miré, sí, canción, único, pingüino, niña
 # árbol, miré, sí, canción, único, pingüino, niña
-
+#
 # Fixed and normalized:
 # arbol, mire, si, cancion, unico, pinguino, nina
 # arbol, mire, si, cancion, unico, pinguino, nina
