@@ -3,8 +3,8 @@ from __future__ import print_function
 from utf8fixer import fix_encoding
 
 contents = [
-    u"árbol, miré, sí, canción, único, pingüno, niña",
-    u"ĂĄrbol, mirĂŠ, sĂ­, canciĂłn, Ăşnico, pingĂźno, niĂąa"
+    u"árbol, miré, sí, canción, único, pingüino, niña",
+    u"ĂĄrbol, mirĂŠ, sĂ­, canciĂłn, Ăşnico, pingĂźino, niĂąa"
 ]
 
 print("\nFixed but not normalized:")
@@ -22,9 +22,9 @@ for i, content in enumerate(contents):
 
 # output:
 # Fixed but not normalized:
-# árbol, miré, sí, canción, único, pingüno, niña
-# árbol, miré, sí, canción, único, pingüno, niña
+# árbol, miré, sí, canción, único, pingüino, niña
+# árbol, miré, sí, canción, único, pingüino, niña
 
 # Fixed and normalized:
-# arbol, mire, si, cancion, unico, pinguno, nina
-# arbol, mire, si, cancion, unico, pinguno, nina
+# arbol, mire, si, cancion, unico, pinguino, nina
+# arbol, mire, si, cancion, unico, pinguino, nina
