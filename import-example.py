@@ -18,3 +18,13 @@ for i, content in enumerate(contents):
     # fix_encoding(content, encoding="latin2", norm=True)
     contents[i] = fix_encoding(content, norm=True)
     print(contents[i])
+
+
+# output:
+# Fixed but not normalized:
+# árbol, miré, sí, canción, único, pingüno, niña
+# árbol, miré, sí, canción, único, pingüno, niña
+
+# Fixed and normalized:
+# arbol, mire, si, cancion, unico, pinguno, nina
+# arbol, mire, si, cancion, unico, pinguno, nina
