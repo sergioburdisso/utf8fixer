@@ -29,4 +29,8 @@ if __name__ == "__main__":
     if path.isfile(PATH):
         convert_file(PATH)
     else:
-        print("[*] error: usage: utf8-fix-bruteforce.py FILE_PATH")
+        print(
+            "[*] error: usage: %s FILE_PATH"
+            %
+            argv[0]
+        )
