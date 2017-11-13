@@ -67,5 +67,7 @@ if __name__ == "__main__":
     else:
         print(
             "[*] error: "
-            "usage: utf8-fix.py FILE_OR_DIR_PATH [codec] [normalize]"
+            "usage: %s FILE_OR_DIR_PATH [codec] [normalize]"
+            %
+            argv[0]
         )
